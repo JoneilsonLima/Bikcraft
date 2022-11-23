@@ -3,6 +3,7 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 600px;
 }
 
 
@@ -112,6 +113,7 @@ img {
 .introducao-bg {
     background: #000000;
     color: white;
+    box-shadow: inset 0 -120px #FFFFFF;
 }
 
 .introducao {
@@ -128,7 +130,13 @@ img {
 
 .introducao-conteudo {
     align-self: end;
-    padding: 80px;
+    padding-bottom: 200px;
+}
+
+.introducao img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
 }
 
 .introducao h1 {
